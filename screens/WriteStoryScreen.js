@@ -55,8 +55,8 @@ export default class WriteStoryScreen extends React.Component {
                     placeholderTextColor='black'
                     value={this.state.storyText}
                     style={styles.storyText}
-                    multiline={false}
-                  //  multiline=true
+                   // multiline={false}
+                    multiline=true
                   //  multiline="true"
                   // multiline={true}
                   />
